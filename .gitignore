@@ -1,1 +1,16 @@
 .idea
+# Ignorar archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas
+node_modules/
+build/
+
+# Ignorar archivos específicos
+.env
+config/local.json
+
+# Ignorar todo tipo de archivos por extensión
+*.log
+*.tmp
